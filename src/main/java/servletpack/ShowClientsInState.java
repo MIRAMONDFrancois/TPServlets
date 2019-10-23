@@ -1,4 +1,4 @@
-package jdbcservlet;
+package servletpack;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -13,8 +13,8 @@ import simplejdbc.CustomerEntity;
 import simplejdbc.DAO;
 import simplejdbc.DataSourceFactory;
 
-@WebServlet(name = "ShowClient", urlPatterns = {"/ShowClient"})
-public class ShowClient extends HttpServlet {
+@WebServlet(name = "ShowClientsInState", urlPatterns = {"/ShowClientsInState"})
+public class ShowClientsInState extends HttpServlet {
 
 	/**
 	 * Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.

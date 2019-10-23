@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Start Page</title>
+        <title>Home</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Home Page</h1>
         
-        <form action="./ShowClient">
-        Numéro de Client:<br>
+        <h2>Search Customer by ID</h2>        
+        <form action="ShowClient">
+        ID:<br>
         <input type="text" name="customerID"><br>
         <br>
-        <input type="submit" value="Rechercher">
+        <input type="submit" value="Find"> <a href="ShowClient">(no value)</a>
+        </form> 
+        
+        <h2>Search Customers by State</h2>        
+        <form action="./ShowClientsInState">
+        State:<br>
+        <input type="text" name="customerID"><br>
+        <br>
+        <input type="submit" value="Find"> <a href="ShowClientsInState">(no value)</a>
         </form> 
         
         
